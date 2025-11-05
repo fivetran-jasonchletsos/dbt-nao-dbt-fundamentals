@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: dbt-tutorial  # Using dbt-tutorial for BigQuery
+    schema: jaffle_shop
+    tables:
+      - name: customers
+      - name: orders
